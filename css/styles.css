@@ -67,7 +67,7 @@ color: var(--text);
     color: var(--primary-brend);
 }
 
-.logo {
+.logo1 {
 color:var(--dark);
 font-family: Raleway;
 font-size: 18px;
@@ -78,11 +78,26 @@ text-decoration: none;
 text-transform: uppercase;
 }
 
-.logo:hover,
+.logo1:hover,
 .logo:focus {
-    color: var(--pressed-state);
+color: var(--pressed-state);
 }
 
+.logo2 {
+color:var(--light);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 800;
+line-height: 1,33;
+letter-spacing: 0.03;
+text-decoration: none;
+text-transform: uppercase
+}
+
+.logo2:hover,
+.logo2:focus {
+    color: var(--pressed-state)
+}
 
 /* site-nav */
 .site-nav .link {
@@ -102,7 +117,7 @@ color: var(--pressed-state);
 }
 
 .site-nav .link.current {
-color: var(--accent);
+color: var(--primary-brend);
 }
 
 .address .link {
