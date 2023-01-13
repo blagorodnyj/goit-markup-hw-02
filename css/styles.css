@@ -67,7 +67,7 @@ color: var(--text);
     color: var(--primary-brend);
 }
 
-.logo1 {
+.logo-dark {
 color:var(--dark);
 font-family: Raleway;
 font-size: 18px;
@@ -78,12 +78,12 @@ text-decoration: none;
 text-transform: uppercase;
 }
 
-.logo1:hover,
-.logo:focus {
+.logo-dark:hover,
+.logo-dark:focus {
 color: var(--pressed-state);
 }
 
-.logo2 {
+.logo-light {
 color:var(--light);
 font-family: Raleway;
 font-size: 18px;
@@ -94,8 +94,8 @@ text-decoration: none;
 text-transform: uppercase
 }
 
-.logo2:hover,
-.logo2:focus {
+.logo-light:hover,
+.logo-light:focus {
     color: var(--pressed-state)
 }
 
@@ -131,11 +131,16 @@ text-decoration: none;
 }
 
 /* hero */
-.hero {
+.hero-index {
 background-color: var(--dark);
 }
 
-.hero-title {
+.portfolio {
+background-color: var(--white);
+}
+
+
+.hero-index-title {
 font-style: inherit;
 
 /* Header 1 */
@@ -190,10 +195,10 @@ color:var(--text);
 
 /* Button */
 .button {
-color:var(--primary-brend);
-background-color:var(--primary-brend);
+color: var(--white);
+background-color: var(--primary-brend);
 text-decoration: none;
-background:var(--light);
+background: var(--light);
 border: 1px solid var(--accent);
 border-radius: 4px;
 font-family: 'Roboto';
@@ -206,16 +211,26 @@ letter-spacing: 0.04;
 
 .button:hover,
 .button:focus {
-background-color: #404BBF;
+background-color: var(--pressed-state);
 }
 
 /* paragraph */
 
 .text {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.2;
+}
+
+.portfolio-text {
+color: var(--text);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.2;
+}
+
+.portfolio-text:hover {
+color: var(--text);
 }
