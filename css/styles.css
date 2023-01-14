@@ -186,6 +186,7 @@ color:var(--text);
 .footer {
 background-color:var(--dark);
 color:var(--accent);
+}
 
 /* features */
 .feature-list .title {
@@ -196,10 +197,9 @@ color:var(--text);
 /* Button */
 .button {
 color: var(--white);
-background-color: var(--primary-brend);
 text-decoration: none;
-background: var(--light);
-border: 1px solid var(--accent);
+background: var(--primary-brend);
+border: 1px solid var(--primary-brend);
 border-radius: 4px;
 font-family: 'Roboto';
 font-style: normal;
@@ -212,8 +212,31 @@ letter-spacing: 0.04;
 .button:hover,
 .button:focus {
 background-color: var(--pressed-state);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.filter-btn {
+box-sizing: border-box;
+color: var(--primary-brend);
+text-decoration: none;
+background: var(--light);
+border: 1px solid var(--accent);
+border-radius: 4px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04;
+}
+
+
+.filter-btn:hover,
+.filter-btn:focus {
+color: var(--white);
+background-color: var(--pressed-state);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 /* paragraph */
 
 .text {
